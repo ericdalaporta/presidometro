@@ -14,6 +14,7 @@ Plataforma web para explorar e comparar dados dos presidentes brasileiros desde 
 - HTML5 + CSS3 (Playfair Display / Inter)
 - JavaScript (GSAP, ScrollTrigger, AOS)
 - Dados estáticos em JSON (`data/presidentes-db.json` e `data/presidentes-atualizado.json`)
+- API externa (Wikipédia) + uma feita por mim
 
 ## 🚀 Como executar
 1. Clone o repositório:
@@ -22,7 +23,6 @@ Plataforma web para explorar e comparar dados dos presidentes brasileiros desde 
    cd presidata
    ```
 2. Abra `index.html` diretamente no navegador **ou** utilize a extensão Live Server / Vite para recarregar automaticamente.
-3. Pesquise um presidente e explore os dados. Abra `presidente.html?id=<slug>` para acessar a página detalhada.
 
 ## 📁 Estrutura
 ```
@@ -38,4 +38,4 @@ Plataforma web para explorar e comparar dados dos presidentes brasileiros desde 
 ## 📄 Licença
 Projeto distribuído sob a licença [MIT](LICENSE).
 
-Sinta-se à vontade para abrir issues ou pull requests com melhorias. 🇧🇷
+Sinta-se à vontade para abrir issues ou pull requests com melhorias. 
