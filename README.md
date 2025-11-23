@@ -1,8 +1,8 @@
-# PresiData BR
+# PresiDATA
 
 Plataforma web para explorar e comparar dados dos presidentes brasileiros desde o início da República. A aplicação entrega uma experiência moderna com busca inteligente, cartões animados e indicadores econômicos interativos.
 
-![Visão geral do Presidômetro](assets/icons/presidometro.png)
+![Visão geral do PresiDATA](assets/icons/presidometro.png)
 
 ## ✨ Recursos
 - **Busca instantânea** por nome do presidente com sugestões e cartões dinâmicos.
@@ -18,8 +18,8 @@ Plataforma web para explorar e comparar dados dos presidentes brasileiros desde 
 ## 🚀 Como executar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ericdalaporta/presidometro.git
-   cd presidometro
+   git clone https://github.com/ericdalaporta/presidata.git
+   cd presidata
    ```
 2. Abra `index.html` diretamente no navegador **ou** utilize a extensão Live Server / Vite para recarregar automaticamente.
 3. Pesquise um presidente e explore os dados. Abra `presidente.html?id=<slug>` para acessar a página detalhada.

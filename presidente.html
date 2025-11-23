@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presidente - Presidômetro</title>
+    <title>Presidente - PresiDATA</title>
     <link rel="stylesheet" href="css/presidente.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <div class="cracked-earth"></div>
+    <div id="particle-container" data-density="120"></div>
     
     <div class="page-wrapper">
         <header class="page-header">
@@ -17,7 +17,7 @@
                 <div class="logo-section">
                     <a href="index.html" class="header-title-link">
                         <img src="assets/icons/brasil.png" alt="Brasil" class="brasil-icon">
-                        <h1 class="header-title">Presidômetro</h1>
+                        <h1 class="header-title">PresiDATA</h1>
                     </a>
                 </div>
                 <nav class="nav-links">
@@ -249,7 +249,7 @@
         <footer class="page-footer">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 class="footer-title">Presidômetro</h3>
+                    <h3 class="footer-title">PresiDATA</h3>
                     <p class="footer-description">Explore dados históricos e vários indicadores econômicos dos inúmeros presidentes brasileiros, além de poder compará-los.</p>
                 </div>
                 <div class="footer-section">
@@ -270,13 +270,14 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Presidômetro. Todos os direitos reservados.</p>
+                <p>&copy; 2025 PresiDATA. Todos os direitos reservados.</p>
             </div>
         </footer>
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/particles.js"></script>
     <script src="js/presidente.js"></script>
     <script src="js/compare.js"></script>
 </body>

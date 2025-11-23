@@ -1,5 +1,5 @@
 /**
- * Página de Detalhes do Presidente - Presidômetro
+ * Página de Detalhes do Presidente - PresiDATA
  * Exibe informações detalhadas de um presidente específico
  */
 class PresidentePage {
@@ -18,6 +18,7 @@ class PresidentePage {
             gsap.registerPlugin(ScrollTrigger);
         }
         this.loadPresidentFromURL();
+        this.setupHeaderScroll();
     }
 
     async loadPresidentes() {
@@ -49,7 +50,7 @@ class PresidentePage {
     }
 
     displayPresident(presidente) {
-        document.title = `${presidente.nome} - Presidômetro`;
+        document.title = `${presidente.nome} - PresiDATA`;
 
         if (presidente.id) {
             document.body.dataset.currentPresidentId = presidente.id;
@@ -143,6 +144,21 @@ class PresidentePage {
         this.animateHeroName(presidente.nome);
         this.runPageAnimations();
         this.setupScrollAnimations();
+    }
+
+    setupHeaderScroll() {
+        const header = document.querySelector('.page-header');
+        if (!header) {
+            return;
+        }
+
+        const updateHeaderState = () => {
+            const shouldCondense = window.scrollY > 24;
+            header.classList.toggle('is-condensed', shouldCondense);
+        };
+
+        updateHeaderState();
+        window.addEventListener('scroll', updateHeaderState, { passive: true });
     }
 
     showError(message) {

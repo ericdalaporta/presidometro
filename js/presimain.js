@@ -1,4 +1,4 @@
-class PresiDataBR {
+class PresiDATAApp {
     constructor() {
         this.searchInput = document.getElementById('busca-candidato');
         this.searchButton = document.getElementById('btn-buscar');
@@ -451,7 +451,7 @@ class PresiDataBR {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    window.presidata = new PresiDataBR();
+    window.presidata = new PresiDATAApp();
 });
 
 window.presidata = null;
