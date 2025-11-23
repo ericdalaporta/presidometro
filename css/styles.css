@@ -125,14 +125,9 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    transition: all 0.3s ease;
     box-shadow: none !important;
     filter: none !important;
     border: none !important;
-}
-
-.brasil-logo:hover {
-    transform: none !important;
 }
 
 .main-title {
@@ -151,32 +146,6 @@ body {
     text-align: center;
     width: 100%;
     display: inline-block;
-    transition: transform 0.3s ease, text-shadow 0.3s ease;
-}
-
-.main-title::after {
-    content: '';
-    position: absolute;
-    top: -20%;
-    left: -40%;
-    width: 180%;
-    height: 140%;
-    background: linear-gradient(120deg, transparent 15%, rgba(255, 255, 255, 0.35) 45%, transparent 70%);
-    mix-blend-mode: screen;
-    opacity: 0;
-    pointer-events: none;
-    animation: titleGlint 1.4s linear infinite;
-    animation-play-state: paused;
-}
-
-.main-title:hover {
-    transform: translateY(-2px) scale(1.01);
-    text-shadow: 0 10px 25px rgba(15, 23, 42, 0.35);
-}
-
-.main-title:hover::after {
-    opacity: 1;
-    animation-play-state: running;
 }
 
 .description {
