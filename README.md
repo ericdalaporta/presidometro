@@ -2,7 +2,7 @@
 
 Plataforma web para explorar e comparar dados dos presidentes brasileiros desde o início da República. A aplicação entrega uma experiência moderna com busca inteligente, cartões animados e indicadores econômicos interativos.
 
-![Visão geral do PresiDATA futuramente](assets/icons/presidometro.mp4)
+![Visão geral do PresiDATA futuramente](assets/icons/presidata.png)
 
 ## ✨ Recursos
 - **Busca instantânea** por nome do presidente com sugestões e cartões dinâmicos.
